@@ -1,0 +1,392 @@
+{
+  "sources": [
+    {
+      "name": "aceyducey",
+      "url": "http://www.vintage-basic.net/bcg/aceyducey.bas"
+    },
+    {
+      "name": "amazing",
+      "url": "http://www.vintage-basic.net/bcg/amazing.bas"
+    },
+    {
+      "name": "animal",
+      "url": "http://www.vintage-basic.net/bcg/animal.bas"
+    },
+    {
+      "name": "awari",
+      "url": "http://www.vintage-basic.net/bcg/awari.bas"
+    },
+    {
+      "name": "bagels",
+      "url": "http://www.vintage-basic.net/bcg/bagels.bas"
+    },
+    {
+      "name": "banner",
+      "url": "http://www.vintage-basic.net/bcg/banner.bas"
+    },
+    {
+      "name": "basketball",
+      "url": "http://www.vintage-basic.net/bcg/basketball.bas"
+    },
+    {
+      "name": "batnum",
+      "url": "http://www.vintage-basic.net/bcg/batnum.bas"
+    },
+    {
+      "name": "battle",
+      "url": "http://www.vintage-basic.net/bcg/battle.bas"
+    },
+    {
+      "name": "blackjack",
+      "url": "http://www.vintage-basic.net/bcg/blackjack.bas"
+    },
+    {
+      "name": "bombardment",
+      "url": "http://www.vintage-basic.net/bcg/bombardment.bas"
+    },
+    {
+      "name": "bombsaway",
+      "url": "http://www.vintage-basic.net/bcg/bombsaway.bas"
+    },
+    {
+      "name": "bounce",
+      "url": "http://www.vintage-basic.net/bcg/bounce.bas"
+    },
+    {
+      "name": "bowling",
+      "url": "http://www.vintage-basic.net/bcg/bowling.bas"
+    },
+    {
+      "name": "boxing",
+      "url": "http://www.vintage-basic.net/bcg/boxing.bas"
+    },
+    {
+      "name": "bug",
+      "url": "http://www.vintage-basic.net/bcg/bug.bas"
+    },
+    {
+      "name": "bullfight",
+      "url": "http://www.vintage-basic.net/bcg/bullfight.bas"
+    },
+    {
+      "name": "bullseye",
+      "url": "http://www.vintage-basic.net/bcg/bullseye.bas"
+    },
+    {
+      "name": "bunny",
+      "url": "http://www.vintage-basic.net/bcg/bunny.bas"
+    },
+    {
+      "name": "buzzword",
+      "url": "http://www.vintage-basic.net/bcg/buzzword.bas"
+    },
+    {
+      "name": "calendar",
+      "url": "http://www.vintage-basic.net/bcg/calendar.bas"
+    },
+    {
+      "name": "change",
+      "url": "http://www.vintage-basic.net/bcg/change.bas"
+    },
+    {
+      "name": "checkers",
+      "url": "http://www.vintage-basic.net/bcg/checkers.bas"
+    },
+    {
+      "name": "chemist",
+      "url": "http://www.vintage-basic.net/bcg/chemist.bas"
+    },
+    {
+      "name": "chief",
+      "url": "http://www.vintage-basic.net/bcg/chief.bas"
+    },
+    {
+      "name": "chomp",
+      "url": "http://www.vintage-basic.net/bcg/chomp.bas"
+    },
+    {
+      "name": "civilwar",
+      "url": "http://www.vintage-basic.net/bcg/civilwar.bas"
+    },
+    {
+      "name": "combat",
+      "url": "http://www.vintage-basic.net/bcg/combat.bas"
+    },
+    {
+      "name": "craps",
+      "url": "http://www.vintage-basic.net/bcg/craps.bas"
+    },
+    {
+      "name": "cube",
+      "url": "http://www.vintage-basic.net/bcg/cube.bas"
+    },
+    {
+      "name": "depthcharge",
+      "url": "http://www.vintage-basic.net/bcg/depthcharge.bas"
+    },
+    {
+      "name": "diamond",
+      "url": "http://www.vintage-basic.net/bcg/diamond.bas"
+    },
+    {
+      "name": "dice",
+      "url": "http://www.vintage-basic.net/bcg/dice.bas"
+    },
+    {
+      "name": "digits",
+      "url": "http://www.vintage-basic.net/bcg/digits.bas"
+    },
+    {
+      "name": "evenwins",
+      "url": "http://www.vintage-basic.net/bcg/evenwins.bas"
+    },
+    {
+      "name": "flipflop",
+      "url": "http://www.vintage-basic.net/bcg/flipflop.bas"
+    },
+    {
+      "name": "football",
+      "url": "http://www.vintage-basic.net/bcg/ftball.bas"
+    },
+    {
+      "name": "furtrader",
+      "url": "http://www.vintage-basic.net/bcg/furtrader.bas"
+    },
+    {
+      "name": "golf",
+      "url": "http://www.vintage-basic.net/bcg/golf.bas"
+    },
+    {
+      "name": "gomoko",
+      "url": "http://www.vintage-basic.net/bcg/gomoko.bas"
+    },
+    {
+      "name": "guess",
+      "url": "http://www.vintage-basic.net/bcg/guess.bas"
+    },
+    {
+      "name": "gunner",
+      "url": "http://www.vintage-basic.net/bcg/gunner.bas"
+    },
+    {
+      "name": "hammurabi",
+      "url": "http://www.vintage-basic.net/bcg/hammurabi.bas"
+    },
+    {
+      "name": "hangman",
+      "url": "http://www.vintage-basic.net/bcg/hangman.bas"
+    },
+    {
+      "name": "hello",
+      "url": "http://www.vintage-basic.net/bcg/hello.bas"
+    },
+    {
+      "name": "hexapawn",
+      "url": "http://www.vintage-basic.net/bcg/hexapawn.bas"
+    },
+    {
+      "name": "hi-lo",
+      "url": "http://www.vintage-basic.net/bcg/hi-lo.bas"
+    },
+    {
+      "name": "highiq",
+      "url": "http://www.vintage-basic.net/bcg/highiq.bas"
+    },
+    {
+      "name": "hockey",
+      "url": "http://www.vintage-basic.net/bcg/hockey.bas"
+    },
+    {
+      "name": "horserace",
+      "url": "http://www.vintage-basic.net/bcg/horserace.bas"
+    },
+    {
+      "name": "hurkle",
+      "url": "http://www.vintage-basic.net/bcg/hurkle.bas"
+    },
+    {
+      "name": "kinema",
+      "url": "http://www.vintage-basic.net/bcg/kinema.bas"
+    },
+    {
+      "name": "king",
+      "url": "http://www.vintage-basic.net/bcg/king.bas"
+    },
+    {
+      "name": "letter",
+      "url": "http://www.vintage-basic.net/bcg/letter.bas"
+    },
+    {
+      "name": "life",
+      "url": "http://www.vintage-basic.net/bcg/life.bas"
+    },
+    {
+      "name": "litquiz",
+      "url": "http://www.vintage-basic.net/bcg/litquiz.bas"
+    },
+    {
+      "name": "love",
+      "url": "http://www.vintage-basic.net/bcg/love.bas"
+    },
+    {
+      "name": "lunar",
+      "url": "http://www.vintage-basic.net/bcg/lunar.bas"
+    },
+    {
+      "name": "lem",
+      "url": "http://www.vintage-basic.net/bcg/lem.bas"
+    },
+    {
+      "name": "rocket",
+      "url": "http://www.vintage-basic.net/bcg/rocket.bas"
+    },
+    {
+      "name": "mastermind",
+      "url": "http://www.vintage-basic.net/bcg/mastermind.bas"
+    },
+    {
+      "name": "mathdice",
+      "url": "http://www.vintage-basic.net/bcg/mathdice.bas"
+    },
+    {
+      "name": "mugwump",
+      "url": "http://www.vintage-basic.net/bcg/mugwump.bas"
+    },
+    {
+      "name": "name",
+      "url": "http://www.vintage-basic.net/bcg/name.bas"
+    },
+    {
+      "name": "nicomachus",
+      "url": "http://www.vintage-basic.net/bcg/nicomachus.bas"
+    },
+    {
+      "name": "nim",
+      "url": "http://www.vintage-basic.net/bcg/nim.bas"
+    },
+    {
+      "name": "number",
+      "url": "http://www.vintage-basic.net/bcg/number.bas"
+    },
+    {
+      "name": "onecheck",
+      "url": "http://www.vintage-basic.net/bcg/onecheck.bas"
+    },
+    {
+      "name": "orbit",
+      "url": "http://www.vintage-basic.net/bcg/orbit.bas"
+    },
+    {
+      "name": "pizza",
+      "url": "http://www.vintage-basic.net/bcg/pizza.bas"
+    },
+    {
+      "name": "poetry",
+      "url": "http://www.vintage-basic.net/bcg/poetry.bas"
+    },
+    {
+      "name": "poker",
+      "url": "http://www.vintage-basic.net/bcg/poker.bas"
+    },
+    {
+      "name": "queen",
+      "url": "http://www.vintage-basic.net/bcg/queen.bas"
+    },
+    {
+      "name": "reverse",
+      "url": "http://www.vintage-basic.net/bcg/reverse.bas"
+    },
+    {
+      "name": "rockscissors",
+      "url": "http://www.vintage-basic.net/bcg/rockscissors.bas"
+    },
+    {
+      "name": "roulette",
+      "url": "http://www.vintage-basic.net/bcg/roulette.bas"
+    },
+    {
+      "name": "russianroulette",
+      "url": "http://www.vintage-basic.net/bcg/russianroulette.bas"
+    },
+    {
+      "name": "salvo",
+      "url": "http://www.vintage-basic.net/bcg/salvo.bas"
+    },
+    {
+      "name": "sinewave",
+      "url": "http://www.vintage-basic.net/bcg/sinewave.bas"
+    },
+    {
+      "name": "slalom",
+      "url": "http://www.vintage-basic.net/bcg/slalom.bas"
+    },
+    {
+      "name": "slots",
+      "url": "http://www.vintage-basic.net/bcg/slots.bas"
+    },
+    {
+      "name": "splat",
+      "url": "http://www.vintage-basic.net/bcg/splat.bas"
+    },
+    {
+      "name": "stars",
+      "url": "http://www.vintage-basic.net/bcg/stars.bas"
+    },
+    {
+      "name": "stockmarket",
+      "url": "http://www.vintage-basic.net/bcg/stockmarket.bas"
+    },
+    {
+      "name": "superstartrek",
+      "url": "http://www.vintage-basic.net/bcg/superstartrek.bas"
+    },
+    {
+      "name": "synonym",
+      "url": "http://www.vintage-basic.net/bcg/synonym.bas"
+    },
+    {
+      "name": "target",
+      "url": "http://www.vintage-basic.net/bcg/target.bas"
+    },
+    {
+      "name": "3dplot",
+      "url": "http://www.vintage-basic.net/bcg/3dplot.bas"
+    },
+    {
+      "name": "3dtictactoe",
+      "url": "http://www.vintage-basic.net/bcg/qubit.bas"
+    },
+    {
+      "name": "tictactoe",
+      "url": "http://www.vintage-basic.net/bcg/tictactoe2.bas"
+    },
+    {
+      "name": "tower",
+      "url": "http://www.vintage-basic.net/bcg/tower.bas"
+    },
+    {
+      "name": "train",
+      "url": "http://www.vintage-basic.net/bcg/train.bas"
+    },
+    {
+      "name": "trap",
+      "url": "http://www.vintage-basic.net/bcg/trap.bas"
+    },
+    {
+      "name": "23matches",
+      "url": "http://www.vintage-basic.net/bcg/23matches.bas"
+    },
+    {
+      "name": "war",
+      "url": "http://www.vintage-basic.net/bcg/war.bas"
+    },
+    {
+      "name": "weekday",
+      "url": "http://www.vintage-basic.net/bcg/weekday.bas"
+    },
+    {
+      "name": "word",
+      "url": "http://www.vintage-basic.net/bcg/word.bas"
+    }
+  ]
+}
