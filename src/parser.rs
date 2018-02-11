@@ -414,20 +414,24 @@ impl Parser {
         Ok(a)
     }
 
-    // <Mult Exp>    ::= <Negate Exp> '*' <Mult Exp>
-    //                 | <Negate Exp> '/' <Mult Exp>
+    // <Mult Exp>    ::= <Negate Exp> '*' <Negate Exp>
+    //                 | <Negate Exp> '/' <Negate Exp>
     //                 | <Negate Exp>
     fn parse_mult_expression(&mut self) -> Result<AST> {
-        let a = self.parse_negate_expression()?;
-        let tid = self.la().id;
-        match tid {
-            TID::MULT | TID::DIV => {
-                self.consume();
-                let b = self.parse_mult_expression()?;
-                Ok(ast!(tid, a, b))
+        let mut a = self.parse_negate_expression()?;
+
+        loop {
+            let tid = self.la().id;
+            match tid {
+                TID::MULT | TID::DIV => {
+                    self.consume();
+                    let b = self.parse_negate_expression()?;
+                    a = ast!(tid, a, b)
+                }
+                _ => break,
             }
-            _ => Ok(a),
         }
+        Ok(a)
     }
 
     // <Negate Exp>  ::= '-' <Power Exp>

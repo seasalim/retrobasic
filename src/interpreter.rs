@@ -915,7 +915,7 @@ mod tests {
         let mut parser = Parser::new(lexer);
         let ast = parser.parse().unwrap().clone();
         let mut interpreter = Interpreter::new();
-        interpreter.run(&ast);
+        interpreter.run(&ast).unwrap();
     }
 
     #[test]
@@ -928,7 +928,7 @@ mod tests {
         let mut parser = Parser::new(lexer);
         let ast = parser.parse().unwrap().clone();
         let mut interpreter = Interpreter::new();
-        interpreter.run(&ast);
+        interpreter.run(&ast).unwrap();
     }
 
     #[test]
@@ -939,7 +939,7 @@ mod tests {
         let mut parser = Parser::new(lexer);
         let ast = parser.parse().unwrap().clone();
         let mut interpreter = Interpreter::new();
-        interpreter.run(&ast);
+        interpreter.run(&ast).unwrap();
     }
 
     #[test]
@@ -951,6 +951,6 @@ mod tests {
         let mut parser = Parser::new(lexer);
         let ast = parser.parse().unwrap().clone();
         let mut interpreter = Interpreter::new();
-        interpreter.run(&ast);
+        interpreter.run(&ast).unwrap();
     }
 }
