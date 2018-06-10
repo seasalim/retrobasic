@@ -177,8 +177,8 @@ impl Lexer {
 
 #[cfg(test)]
 mod tests {
-    use tokenid::*;
     use lexer::*;
+    use tokenid::*;
 
     #[test]
     fn can_tokenize_statement() {

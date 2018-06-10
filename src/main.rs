@@ -20,21 +20,21 @@ extern crate hyper;
 extern crate serde_derive;
 extern crate tokio_core;
 
-mod tokenid;
+mod ast;
+mod error;
+mod fetcher;
+mod interpreter;
 mod lexer;
 mod parser;
-mod ast;
-mod interpreter;
-mod fetcher;
-mod error;
+mod tokenid;
 
+use fetcher::Fetcher;
+use interpreter::Interpreter;
 use lexer::Lexer;
 use parser::Parser;
-use interpreter::Interpreter;
-use fetcher::Fetcher;
 
 fn main() {
-    env_logger::init().unwrap();
+    env_logger::init();
 
     let matches = App::new("retrobasic")
         .version("0.1")

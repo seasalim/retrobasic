@@ -1,8 +1,8 @@
-use tokenid::TID;
-use lexer::{Lexer, Token};
 use ast::AST;
 use error::{Error, Result};
+use lexer::{Lexer, Token};
 use std::str::FromStr;
+use tokenid::TID;
 
 macro_rules! ast {
     (

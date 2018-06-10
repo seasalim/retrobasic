@@ -1,12 +1,12 @@
+use ast::AST;
+use dimsum::MultiDim;
+use error::{Error, Result};
+use rand;
+use std::collections::HashMap;
 use std::fmt;
 use std::io::{self, Write};
-use std::collections::HashMap;
 use std::str::FromStr;
-use rand;
-use ast::AST;
-use error::{Error, Result};
 use tokenid::TID;
-use dimsum::MultiDim;
 
 // Memory value
 #[derive(Debug, PartialEq, PartialOrd, Clone)]
@@ -900,8 +900,8 @@ impl Interpreter {
 #[cfg(test)]
 mod tests {
     use interpreter::*;
-    use parser::*;
     use lexer::*;
+    use parser::*;
 
     #[test]
     fn can_execute_basic_statements() {

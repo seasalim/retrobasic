@@ -1,5 +1,5 @@
-use std::fmt;
 use lexer::Token;
+use std::fmt;
 
 #[derive(Debug, PartialEq, Clone)]
 pub struct AST {
@@ -78,9 +78,9 @@ impl AST {
 
 #[cfg(test)]
 mod tests {
-    use tokenid::*;
     use ast::*;
     use lexer::*;
+    use tokenid::*;
 
     #[test]
     fn can_add_children() {

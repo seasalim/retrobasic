@@ -2,16 +2,22 @@
 name = "retrobasic"
 version = "0.1.0"
 authors = ["Salim Alam"]
+description = "A BASIC emulator with easy access to a libary of classic games"
+homepage = "https://github.com/seasalim/retrobasic"
+repository = "https://github.com/seasalim/retrobasic"
+license = "Apache-2.0"
+keywords = ["emulator", "classic", "basic", "games"]
+categories = ["emulators", "games"]
 
 [dependencies]
 clap = "2"
 log = "0.3"
 rand = "0.3"
-dimsum = "*"
+dimsum = "0.1.0"
 serde = "1.0"
 serde_json = "1.0"
 serde_derive = "1.0"
 futures = "0.1"
 hyper = "0.11"
 tokio-core = "0.1"
-env_logger = "*"
+env_logger = "0.5.10"

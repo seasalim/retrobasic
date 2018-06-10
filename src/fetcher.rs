@@ -1,8 +1,8 @@
-use std::fmt;
-use serde_json;
-use futures::{Future, Stream};
 use futures::future;
+use futures::{Future, Stream};
 use hyper::{Client, Error, Uri};
+use serde_json;
+use std::fmt;
 use tokio_core::reactor::Core;
 
 #[derive(Serialize, Deserialize)]
